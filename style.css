@@ -1,0 +1,43 @@
+
+
+/* comon shared style */
+body{
+font-family: 'lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav Realeted Style*/ 
+nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+.nav-title .text-logo{
+    color: #FD6E0A;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    color: #474747;
+    text-decoration: none;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: wheat;
+    padding: 15px 35px;
+}
